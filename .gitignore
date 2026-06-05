@@ -1,0 +1,98 @@
+# v0 sandbox internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+.vercel/
+
+# Environment variables
+.env*.local
+.env
+.env.local
+
+# Common ignores
+node_modules
+.next/
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# AWS & credentials
+.aws/
+credentials.json
+sagemaker_session.py
+.sagemaker/
+
+# Data files
+data/
+checkpoints/
+results/
+*.npy
+*.pkl
+*.h5
+*.pt
+*.pth
+
+# Model files
+*.onnx
+*.pb
+model.json
+*.weights
+
+# Logs
+*.log
+pip-log.txt
+
+# Pyre type checker
+.pyre/
+.vercel
